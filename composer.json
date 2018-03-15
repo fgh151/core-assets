@@ -1,5 +1,6 @@
 {
     "name": "fgh151/core-assets",
+    "version": "0.0.1",
     "description": "Assets manager for ruvents core",
     "type": "library",
     "license": "MIT",
