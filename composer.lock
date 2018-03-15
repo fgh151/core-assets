@@ -1,0 +1,176 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c9d4356b8715e3a6066d980aea3bf1bb",
+    "packages": [
+        {
+            "name": "foxy/foxy",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fxpio/foxy.git",
+                "reference": "8b3aaaf65b1ac4e561dc344a8a7b4191e9907f95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fxpio/foxy/zipball/8b3aaaf65b1ac4e561dc344a8a7b4191e9907f95",
+                "reference": "8b3aaaf65b1ac4e561dc344a8a7b4191e9907f95",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "composer/composer": "^1.5.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Foxy\\Foxy",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Foxy\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Pluchino",
+                    "email": "francois.pluchino@gmail.com"
+                }
+            ],
+            "description": "Fast, reliable, and secure NPM/Yarn bridge for Composer",
+            "homepage": "https://github.com/fxpio/foxy",
+            "keywords": [
+                "Bridge",
+                "asset",
+                "composer",
+                "dependency manager",
+                "nodejs",
+                "npm",
+                "package",
+                "yarn"
+            ],
+            "time": "2018-03-13T16:55:05+00:00"
+        },
+        {
+            "name": "ruvents/yii",
+            "version": "1.2.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ruvents/yii.git",
+                "reference": "25c86d74d64cb9b9807a02dbf0c30a49187a8499"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ruvents/yii/zipball/25c86d74d64cb9b9807a02dbf0c30a49187a8499",
+                "reference": "25c86d74d64cb9b9807a02dbf0c30a49187a8499",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "replace": {
+                "yiisoft/yii": "1.1.*"
+            },
+            "require-dev": {
+                "phing/phing": "2.*",
+                "phpunit/phpunit": "~3.7",
+                "phpunit/phpunit-selenium": "~1.4.0"
+            },
+            "bin": [
+                "framework/yiic"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "framework/YiiBase.php",
+                    "framework/yii.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Qiang Xue",
+                    "email": "qiang.xue@gmail.com",
+                    "homepage": "http://www.yiiframework.com/",
+                    "role": "Founder and project lead"
+                },
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru",
+                    "homepage": "http://rmcreative.ru/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Maurizio Domba",
+                    "homepage": "http://mdomba.info/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Wei Zhuo",
+                    "email": "weizhuo@gmail.com",
+                    "role": "Project site maintenance and development"
+                },
+                {
+                    "name": "Sebastián Thierer",
+                    "email": "sebas@artfos.com",
+                    "role": "Component development"
+                },
+                {
+                    "name": "Jeffrey Winesett",
+                    "email": "jefftulsa@gmail.com",
+                    "role": "Documentation and marketing"
+                },
+                {
+                    "name": "Timur Ruziev",
+                    "email": "resurtm@gmail.com",
+                    "homepage": "http://resurtm.com/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com",
+                    "role": "Core framework development"
+                }
+            ],
+            "description": "Yii Web Programming Framework",
+            "homepage": "http://www.yiiframework.com/",
+            "keywords": [
+                "framework",
+                "yii"
+            ],
+            "time": "2018-03-13T08:40:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
