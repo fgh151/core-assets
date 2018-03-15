@@ -100,6 +100,14 @@ use app\assets\site\SiteAsset;
 Yii::$app->clientScript->register(SiteAsset::class);
 ```
 
+Для yii1:
+
+```php
+use app\assets\site\SiteAsset;
+
+Yii::app()->clientScript->register(SiteAsset::class);
+```
+
 Различные примеры пакетов можно увидеть в файлах:
 
 src/BootstrapAsset.php
